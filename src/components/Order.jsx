@@ -1,6 +1,6 @@
 import Button from './ui/Button';
 import { ArrowUpRight, Bell } from './ui/Icons';
-import coverFullSrc from '/assets/cover-full.png';
+const coverFullSrc = 'https://drtf-om.replit.app/assets/cover-full.png';
 import omrSrc from '/assets/omr-symbol.png';
 
 function WhatsIcon({ size = 30 }) {
