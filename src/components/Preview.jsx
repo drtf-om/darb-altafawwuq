@@ -1,4 +1,4 @@
-import pageSrc from '/assets/page-section1.png';
+const pageSrc = 'https://drtf-om.replit.app/assets/page-section1.png';
 
 export default function Preview() {
   return (
