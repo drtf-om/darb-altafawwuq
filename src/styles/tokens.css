@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --green-50:  #f7f8ec;
+  --green-100: #eef0d6;
+  --green-200: #dfe2b3;
+  --green-300: #cfd494;
+  --green-400: #c2c780;
+  --green-500: #bbbf73;
+  --green-600: #a3a85c;
+  --green-700: #848946;
+  --green-800: #62662f;
+  --green-900: #44471f;
+
+  --olive-50:  #eceadf;
+  --olive-200: #c2c0ad;
+  --olive-500: #6b6e51;
+  --olive-700: #4c4e37;
+  --olive-800: #3e402d;
+  --olive-900: #2c2e1f;
+
+  --blue-50:   #eaf1f8;
+  --blue-100:  #cfe0f0;
+  --blue-200:  #a7c6e3;
+  --blue-300:  #739cbf;
+  --blue-400:  #5689c4;
+  --blue-500:  #427db8;
+  --blue-600:  #34679d;
+  --blue-700:  #2a527e;
+  --blue-800:  #213f60;
+
+  --teal-300:  #8fd0e0;
+  --teal-400:  #6ec2d6;
+  --teal-500:  #5db5d2;
+  --teal-600:  #3f9ab8;
+
+  --yellow-300: #fdf29a;
+  --yellow-400: #fcec6f;
+  --yellow-500: #f4e44e;
+
+  --ink-900:   #20262d;
+  --ink-800:   #2d3740;
+  --ink-700:   #3c4854;
+  --ink-600:   #55626e;
+  --ink-500:   #74808c;
+  --ink-400:   #9aa4ad;
+
+  --brown-700: #402d2d;
+  --brown-500: #6b4f4f;
+
+  --paper-0:   #ffffff;
+  --paper-50:  #faf9f4;
+  --paper-100: #f3f1e8;
+  --paper-200: #e8e5d8;
+  --paper-300: #d8d4c2;
+
+  --success: #6f9f4f;
+  --warning: #e0a93f;
+  --danger:  #c0563f;
+  --info:    var(--blue-500);
+
+  --cover-900: #12232d;
+  --cover-800: #1a3a4f;
+  --cover-600: #245d80;
+  --cover-500: #3680a6;
+
+  --brand-gradient: linear-gradient(120deg, #f4e44e 0%, #bbbf73 42%, #6ec2d6 100%);
+  --brand-gradient-soft: linear-gradient(120deg, #fdf29a 0%, #dfe2b3 50%, #a7d8e6 100%);
+  --cover-gradient: linear-gradient(180deg, #12232d 0%, #1a3a4f 38%, #245d80 70%, #3680a6 100%);
+
+  --surface-page:     var(--paper-50);
+  --surface-card:     var(--paper-0);
+  --surface-sunken:   var(--paper-100);
+  --surface-inverse:  var(--olive-800);
+
+  --text-heading:     var(--olive-800);
+  --text-body:        var(--ink-800);
+  --text-muted:       var(--ink-500);
+  --text-on-dark:     #ffffff;
+  --text-on-accent:   var(--olive-900);
+  --text-link:        var(--blue-600);
+
+  --banner-bg:        var(--olive-800);
+  --banner-text:      #ffffff;
+
+  --action-primary-bg:    var(--olive-800);
+  --action-primary-text:  #ffffff;
+  --action-primary-hover: var(--olive-900);
+  --action-accent-bg:     var(--green-500);
+  --action-accent-text:   var(--olive-900);
+  --action-accent-hover:  var(--green-600);
+
+  --border-subtle:  var(--paper-200);
+  --border-strong:  var(--paper-300);
+  --focus-ring:     var(--blue-400);
+
+  --accent-green:  var(--green-500);
+  --accent-blue:   var(--blue-500);
+  --accent-teal:   var(--teal-500);
+  --accent-yellow: var(--yellow-400);
+
+  --section-1:      #43699a;
+  --section-1-soft: #e7edf4;
+  --section-2:      #3e402d;
+  --section-2-soft: #eceadf;
+  --section-3:      #76828f;
+  --section-3-soft: #eaecef;
+  --section-4:      #402d2d;
+  --section-4-soft: #ece4e4;
+  --section-5:      #9aa863;
+  --section-5-soft: #eef0dc;
+
+  --font-base:    'Cairo', 'Segoe UI', Tahoma, system-ui, sans-serif;
+  --font-display: 'Cairo', 'Segoe UI', Tahoma, system-ui, sans-serif;
+
+  --fw-light:     300;
+  --fw-regular:   400;
+  --fw-medium:    500;
+  --fw-semibold:  600;
+  --fw-bold:      700;
+  --fw-extrabold: 800;
+  --fw-black:     900;
+
+  --text-2xs:  0.6875rem;
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-md:   1.125rem;
+  --text-lg:   1.375rem;
+  --text-xl:   1.75rem;
+  --text-2xl:  2.25rem;
+  --text-3xl:  3rem;
+  --text-4xl:  4rem;
+
+  --lh-tight:   1.2;
+  --lh-snug:    1.45;
+  --lh-body:    1.9;
+  --lh-relaxed: 2.1;
+
+  --tracking-tight:  -0.01em;
+  --tracking-normal: 0;
+  --tracking-wide:   0.04em;
+
+  --type-display:  800 var(--text-4xl)/var(--lh-tight) var(--font-display);
+  --type-h1:       800 var(--text-3xl)/var(--lh-tight) var(--font-display);
+  --type-h2:       700 var(--text-2xl)/var(--lh-snug)  var(--font-display);
+  --type-h3:       700 var(--text-xl)/var(--lh-snug)   var(--font-display);
+  --type-banner:   700 var(--text-lg)/var(--lh-snug)   var(--font-display);
+  --type-body:     400 var(--text-md)/var(--lh-body)   var(--font-base);
+  --type-body-sm:  400 var(--text-base)/var(--lh-body) var(--font-base);
+  --type-label:    600 var(--text-sm)/var(--lh-snug)   var(--font-base);
+  --type-caption:  500 var(--text-xs)/var(--lh-snug)   var(--font-base);
+
+  --space-0:  0;
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.5rem;
+  --space-6:  2rem;
+  --space-7:  2.5rem;
+  --space-8:  3rem;
+  --space-9:  4rem;
+  --space-10: 5rem;
+  --space-12: 6rem;
+
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-xl:   24px;
+  --radius-2xl:  32px;
+  --radius-pill: 999px;
+
+  --shadow-xs:  0 1px 2px rgba(45, 55, 64, 0.06);
+  --shadow-sm:  0 2px 6px rgba(45, 55, 64, 0.08);
+  --shadow-md:  0 6px 18px rgba(45, 55, 64, 0.10);
+  --shadow-lg:  0 14px 36px rgba(45, 55, 64, 0.14);
+  --shadow-banner: 0 8px 20px rgba(62, 64, 45, 0.22);
+
+  --ease-out:   cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.45, 0, 0.25, 1);
+  --dur-fast:   140ms;
+  --dur-base:   220ms;
+  --dur-slow:   360ms;
+}
