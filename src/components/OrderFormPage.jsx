@@ -431,7 +431,7 @@ export default function OrderFormPage({ onClose }) {
                 يرجى تحويل المبلغ إلى الحساب البنكي التالي، ثم إرسال صورة الإيصال عبر واتساب بعد إرسال هذا النموذج.
               </p>
 
-              <img src="/assets/bank-info.png" alt="بيانات الحساب البنكي"
+              <img src="https://drtf-om.replit.app/assets/bank-info.png" alt="بيانات الحساب البنكي"
                 style={{ width: '100%', maxWidth: 400, borderRadius: 16, boxShadow: '0 4px 20px rgba(0,0,0,0.1)', margin: '0 auto', display: 'block' }} />
 
               <div style={{ background: '#fff7ed', border: '1px solid #fed7aa', borderRadius: 12, padding: '16px 18px', fontSize: 15, color: '#7c2d12', lineHeight: 1.9 }}>
